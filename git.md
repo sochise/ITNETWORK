@@ -59,4 +59,47 @@ git remote -v
 
 ✅ Hotovo! Projekt je nyní verzovaný a napojený na GitHub.
 
-Chceš k tomu přidat i `.gitignore`, nebo to rovnou spojit s GitHub Actions?
+
+Jakmile upravíš jakýkoli soubor v projektu a chceš změny uložit do Gitu a synchronizovat s GitHubem, stačí následovat tento tříkrokový rituál – **add → commit → push:**
+
+⸻
+
+🔁 🔧 1. Přidej změněné soubory do Git stagingu
+```bash
+git add .
+```
+Připraví všechny změněné soubory k uložení do historie.
+
+⸻
+
+📝 2. Proveď commit s popisem změny
+```bash
+git commit -m "Popis změny, např. Upraven text na hlavní stránce"
+```
+Tím se změny uloží do historie verzí – dbej na srozumitelný komentář, ať se v tom později vyznáš.
+
+⸻
+
+🚀 3. Nahraj změny na GitHub (push)
+```bash
+git push
+```
+Git ví, že má tlačit na origin a větev main nebo master (podle toho, co máš nastaveno z dřívějška).
+
+⸻
+
+✅ Hotovo!
+
+Změny jsou teď bezpečně zaznamenané v Git a zároveň synchronizované s GitHubem.
+
+⸻
+
+👀 Chceš si před tím ověřit stav?
+```bash
+git status
+```
+To ti řekne, co bylo změněno a co čeká na přidání nebo commit.
+
+⸻
+
+📌 Tip na závěr: Pokud pracuješ často, můžeš dělat víc změn a commitovat třeba po „logických celcích“ – jako „Upravená sekce O mně“ nebo „Přidán nový obrázek do galerie“.
