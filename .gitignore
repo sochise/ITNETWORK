@@ -1,0 +1,25 @@
+# Systémové soubory
+.DS_Store
+Thumbs.db
+
+# iCloud záložky (pokud něco synchronizuješ)
+*.icloud
+
+# Logy
+*.log
+
+# Build složky (pokud kompiluješ např. SCSS nebo JS)
+dist/
+build/
+
+# Konfigurace editorů
+.vscode/
+.idea/
+
+# Zálohy a dočasné soubory
+*.tmp
+*.bak
+*.swp
+
+# Soukromé nastavení nebo klíče
+.env
