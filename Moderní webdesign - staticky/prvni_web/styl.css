@@ -1,12 +1,23 @@
+@font-face {
+    font-family: Poppins;
+    src: url(fonty/Poppins-Regular.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: Poppins;
+    src: url(fonty/Poppins-ExtraBold.ttf);
+    font-weight: bold;
+}
+
 body {
-    font-family: Verdana;
+    font: 14px "Poppins";
     background-color: rgb(205, 205, 222);
 }
 
 h1, h2 {
     text-align: center;
     color: rgb(78, 131, 191);
-    font-family: Arial;
+    text-shadow: 3px 3px 5px rgb(255, 0, 30), 5px 5px 10px rgb(209, 255, 4);
 }
 
 .centrovany {
