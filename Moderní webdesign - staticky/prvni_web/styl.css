@@ -11,15 +11,22 @@
 
 body {
     font: 14px "Poppins";
-    background-color: rgb(205, 205, 222);
+    background-color: rgb(205, 205, 222);s
 }
 
 h1, h2 {
     text-align: center;
-    color: rgb(78, 131, 191);
-    text-shadow: 3px 3px 5px rgb(255, 0, 30), 5px 5px 10px rgb(209, 255, 4);
+    color: rgb(0, 119, 255);
+    text-shadow: 5px 5px 10px rgba(0, 60, 255, 0.522);
 }
 
 .centrovany {
     text-align: center;
+}
+
+.avatar {
+    width: 300px;
+}
+.left {
+    text-align: left;
 }
