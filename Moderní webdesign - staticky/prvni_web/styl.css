@@ -25,7 +25,10 @@ h1, h2 {
 }
 
 .avatar {
+    float: right;
     width: 300px;
+    padding-left: 10px;
+    filter: grayscale(1);
 }
 .left {
     text-align: left;
@@ -38,6 +41,7 @@ article header {
 article {
     max-width: 960px;
     margin: 0 auto;
+    
 }
 
 article h1 {
@@ -64,4 +68,8 @@ article section p {
 
 article section a {
     color: #EF6534;
+}
+
+.cistic {
+    clear: both;
 }
