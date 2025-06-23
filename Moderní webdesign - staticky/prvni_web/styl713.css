@@ -1,0 +1,80 @@
+p {
+    font-family: Verdana;
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: Arial;
+    font-weight: normal;
+    color: blue;
+    text-shadow: 10px 10px 10px rgb(246, 246, 249), 20px 20px 5px rgb(21, 21, 145); 
+}
+
+h2 {
+    font-size: 1.9em;
+    font-family: Arial;
+    font-weight: normal;
+    color: red;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: Arial;
+    font-weight: normal;
+    color: red;
+}
+
+h4 {
+    font-size: 1.35em;
+    font-family: Arial;
+    font-weight: normal;
+    color: red;
+}
+
+h5 {
+    font-size: 1.25em;
+    font-family: Arial;
+    font-weight: normal;
+    color: red;
+}
+
+h6 {
+    font-size: 1.15em;
+    font-family: Arial;
+    font-weight: normal;
+    color: red;
+}
+
+.zluta {
+    background-color: yellow;
+}
+
+.oranzova {
+    background-color: orange;
+}
+
+.cervena {
+    background-color: red;
+}
+
+.vinova {
+    background-color: darkred;
+}
+.fialova {
+    background-color: purple;
+}   
+.modra {
+    background-color: blue;
+}   
+.zelena {
+    background-color: green;
+}
+.azurova {
+    background-color: cyan;
+}
+
+body {
+    background: url('images/pozadi.png');
+    image-size: cover;
+}

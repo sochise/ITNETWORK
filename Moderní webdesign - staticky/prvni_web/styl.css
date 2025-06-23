@@ -11,7 +11,7 @@
 
 body {
     font: 14px "Poppins";
-    background-color: rgb(205, 205, 222);s
+    background: #F9F9F9;
 }
 
 h1, h2 {
@@ -29,4 +29,39 @@ h1, h2 {
 }
 .left {
     text-align: left;
+}
+
+article header {
+    height: 80px;
+}
+
+article {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+article h1 {
+    font-size: 2.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: max-content
+}
+
+article h2 {
+    font-size: 2em;
+}
+
+article h3,
+article h4,
+article h5,
+article h6 {
+    color: #00386B;
+}
+
+article section p {
+    line-height: 1.8em;
+}
+
+article section a {
+    color: #EF6534;
 }
