@@ -31,3 +31,25 @@ h1, h2 {
     text-align: center;
 }
 ```
+
+## Box model
+-  padding je vnitřní odsazení, margin to vnější.
+![boxmodel](box.png)
+
+- může být obecně
+```css
+padding: 20px;
+margin: 20px;
+```
+- nebo specificky
+```ccs
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+
+margin-top: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+margin-left: 20px;
+```

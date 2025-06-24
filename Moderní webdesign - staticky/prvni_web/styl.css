@@ -12,10 +12,11 @@
 body {
     font: 14px "Poppins";
     background: #F9F9F9;
+    box-sizing: border-box;
 }
 
 h1, h2 {
-    text-align: center;
+    text-align: left;
     color: rgb(0, 119, 255);
     text-shadow: 5px 5px 10px rgba(0, 60, 255, 0.522);
 }
@@ -41,17 +42,21 @@ article header {
 article {
     max-width: 960px;
     margin: 0 auto;
-    
+    padding: 10px;
 }
 
 article h1 {
+    margin: 0;
+    padding: 10px 0;
     font-size: 2.3em;
     font-weight: bold;
     text-transform: uppercase;
-    width: max-content
+    border-bottom: 4px solid orange;
+    width: max-content;
 }
 
 article h2 {
+    padding: 10px 0;
     font-size: 2em;
 }
 
@@ -59,11 +64,13 @@ article h3,
 article h4,
 article h5,
 article h6 {
+    padding: 10px 0;
     color: #00386B;
 }
 
 article section p {
     line-height: 1.8em;
+    padding-bottom: 1.5em;
 }
 
 article section a {
@@ -72,4 +79,14 @@ article section a {
 
 .cistic {
     clear: both;
+}
+
+.reference_tlacitko {
+    background: #70B73A;
+    color: white;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 25px 0px 25px 0px;
 }
