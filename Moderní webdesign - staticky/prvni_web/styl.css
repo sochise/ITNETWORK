@@ -90,3 +90,8 @@ article section a {
     padding: 12px 25px;
     border-radius: 25px 0px 25px 0px;
 }
+
+.tlacitko:hover {
+    background: #70B73A;
+    border: 1px solid #EF6534;
+}
