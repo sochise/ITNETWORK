@@ -1,13 +1,17 @@
+<!-- This is an HTML document structure. Let me break it down for you: -->
 <!DOCTYPE html>
 <html lang="cs-cz">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontakt</title>
-    <link rel="stylesheet" href="styl.css" type="text/css" />
-</head>
-<body>
-    <header>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="styl.css" type="text/css">
+        <title>Moje první webová stránka</title>
+        <meta name="description" content="moje praktické dovednosti v HTML a CSS">
+        <meta name="keywords" content="HTML, CSS, webdesign, webová stránka, první web">
+        <meta name="author" content="Blahoslav Socha">
+        <link rel="shortcut icon" href="images/logo.png">
+    </head>
+    <body>
+        <header>
             <div id="logo">
                 <h1>Blahoslav<span>Socha</span></h1>
                 <small>webdeveloper</small>
@@ -23,11 +27,23 @@
         </header>
 
     <h1>Kontakt</h1>
-    <img src="images/ikona.png" alt="Ikona kontaktu">
-    <p>Pokud máte zájem o spolupráci nebo se chcete na 
-        něco zeptat, neváhejte mě kontaktovat.</p>
-    <h2>Email</h2>
-    <p><em>sochise@gmail.com</em></p>
-    <a href="index.html">Zpět na hlavní stránku</a>
-</body>
+
+    <section>
+    <p>
+        <img src="images/ikona.png" alt="email" class="vlevo" />
+        Pokud mi chcete něco sdělit, napište mi email na <strong>sochise (zavináč) sochise (tečka) cz nebo využijte formuláře níže</strong>.
+    </p>
+    <p class="centrovany">
+        <iframe frameborder="0" scrolling="no" width="500px" height="220px"
+            src="http://www.itnetwork.cz/service/mail_form.php?hash=kod-vaseho-mailformu">
+        </iframe>
+    </p>
+</section>
+
+        <footer>
+            Vytvořil &copy;Sochise 2025 pro <a href="https://sochise.cz">sochise.cz</a>
+        </footer>
+
+    </body>
+
 </html>
