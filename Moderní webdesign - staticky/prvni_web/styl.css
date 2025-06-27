@@ -203,3 +203,28 @@ footer a {
     float: left;
 }
 
+#dovednosti td {
+    width: 33%;
+    padding: 10px;
+    vertical-align: top;
+    border: 1px solid gray;
+}
+
+#dovednosti {
+    border-collapse: collapse;
+}
+
+#reference img{
+    border: 1px solid gray;
+    padding: 6px;
+    box-shadow: 3px 3px 6px #999999;
+    margin-right: 6px;
+}
+
+#reference a {
+    text-decoration: none;
+}
+
+#reference a:hover {
+    text-decoration: none;
+}
