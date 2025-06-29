@@ -5,6 +5,11 @@ h1 {
     text-shadow: 5px 5px 10px rgba(55, 228, 42, 0.868)
 }
 
+h1:hover {
+    color: #ff0000; /* change color on hover */
+    text-decoration: none; /* underline on hover */
+    cursor: pointer; /* pointer cursor on hover */}
+
 body {
     background-color: #f4f1cd;
     font-family: Arial, sans-serif;

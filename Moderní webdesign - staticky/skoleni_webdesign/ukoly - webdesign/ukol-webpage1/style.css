@@ -1,0 +1,50 @@
+/* TODO */
+h1 {
+    color: #b95e0e;
+    font-size: 2em; 
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.main-content{
+    text-align: center ;
+    color: #b95e0e;
+}
+
+img {
+    border-radius: 30px;
+
+}
+
+
+.btn {
+    background-color: rgb(149, 91, 15);
+    color: white;
+    margin-top: 20px auto;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: rgb(201, 30, 30);
+}
+
+section.leave-message {
+    background-color: #cd925e;
+    padding: 20px;
+}
+
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px auto;
+}
+
+.container {
+    width: 40%;
+    margin: 0 auto;
+}
