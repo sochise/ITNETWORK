@@ -53,3 +53,6 @@ margin-right: 20px;
 margin-bottom: 20px;
 margin-left: 20px;
 ```
+
+## CSS generatory
+Odkaz: [Animista](https://animista.net)
