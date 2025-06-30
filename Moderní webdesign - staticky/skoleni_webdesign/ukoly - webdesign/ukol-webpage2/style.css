@@ -1,1 +1,105 @@
 /* TODO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}  
+
+.main-content {
+    margin-top: 40px;
+    display: flex;
+    width: 70%;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between
+    height: 100px;
+}
+.header-wraper {
+    background-color: #f6dca1;
+
+}
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+li > a {
+    display: flex;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+    background-color: rgb(209, 155, 105);
+    color: white;
+}
+
+.logo a {
+    color: #691103;
+    text-decoration: none;
+    font-style: italic;
+}
+.logo a:hover {
+    color: #809912;
+}
+
+.welcome-section {
+    width: 100%;
+    height: 300px;
+    background-image: url('./coffee.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+img {
+    height: 200px;
+    border-radius: 8px;
+}
+
+.img-waffle {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.img-ice-cream {
+    display: block;
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #f6dca1;
+    text-align: center;
+    padding-top: 20px;
+    justify-content: space-between;
+}

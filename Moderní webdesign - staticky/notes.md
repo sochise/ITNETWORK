@@ -56,3 +56,6 @@ margin-left: 20px;
 
 ## CSS generatory
 Odkaz: [Animista](https://animista.net)
+
+## @media queries
+- podmínky pro nastavení responzivního webu

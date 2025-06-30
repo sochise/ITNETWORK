@@ -21,11 +21,13 @@ img {
 .btn {
     background-color: rgb(149, 91, 15);
     color: white;
-    margin-top: 20px auto;
-    display: inline-block;
-    padding: 10px 20px;
+    margin-top: 20px;
+    display: flex;
+    padding: 10px;
     text-decoration: none;
     border-radius: 5px;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .btn:hover {
@@ -35,6 +37,10 @@ img {
 section.leave-message {
     background-color: #cd925e;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 textarea {
@@ -45,6 +51,6 @@ textarea {
 }
 
 .container {
-    width: 40%;
+    width: 70%;
     margin: 0 auto;
 }
